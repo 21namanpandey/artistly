@@ -240,7 +240,7 @@ const OnboardPage = () => {
               <div className="flex items-center space-x-3">
                 <Checkbox
                   checked={formData.selectedCategories.includes(category)}
-                  readOnly
+                  disabled
                   className="border-2 border-primary data-[state=checked]:bg-primary"
                 />
                 <Label className="cursor-pointer font-medium text-lg">
